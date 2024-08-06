@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/img/pexels-luis-gomes-166706-546819.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: left;
+  }
+  
+  .content {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    color: #FFD700; /* Example color, change as needed */
+    font-weight: 700;
+    font-size: 33px;
+  }
+  
+  p {
+    margin: 20px 0;
+    color: rgb(240, 104, 104);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .key-skills {
+    margin: 15px 5px;
+    padding: 10px;
+    background-color: rgb(60, 60, 121);
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  ul {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #34aae0; /* Example color, change as needed */
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  h2 {
+    margin: 20px 0;
+    color: #00FFFF; /* Example color, change as needed */
+    font-weight: 600;
+    font-size: 23px;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      padding: 10px;
+    }
+    ul {
+      padding-left: 15px;
+    }
+  }
+  
